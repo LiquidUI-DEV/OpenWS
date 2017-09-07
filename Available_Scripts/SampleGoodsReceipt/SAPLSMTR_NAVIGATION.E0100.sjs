@@ -46,7 +46,6 @@ switch(SHOWSCREEN) {
 		break;
 	default:
 		title("Goods Receipts - Purchase Order");
-		pushbutton([TOOLBAR],"@2M@Main Menu","/nsession_manager/d1="+dirDemoLP);
 		pushbutton([TOOLBAR], "@10@View", "/nmigo",{'process':displayMaterial});
 		pushbutton([TOOLBAR], "@0Y@New", "?", {'process':newDoc});
 		box([0,0], [12,33], "Goods Receipts-PO");
