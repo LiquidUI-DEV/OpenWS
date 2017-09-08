@@ -5,12 +5,11 @@
 //Executed On:		SAP Easy Access Screen
 //					
 //**************************************************************************************************//
-load(dirSDDemo+'functionsGeneric.sjs');
-load(dirSDDemo+'functionsVA01.sjs');
+load('functionsGeneric.sjs');
+load('functionsVA01.sjs');
 
 deleteElements();
 
-pushbutton([TOOLBAR],"@2M@Main Menu","/nsession_manager/d1="+dirDemoLP, {"size":[2,40]});
 set('V[me21n*]','');
 me21nPOStatus = false;
 if(isBlank(z_va02_order)) z_va02_order = '5235';
