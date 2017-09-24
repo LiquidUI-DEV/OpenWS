@@ -1,5 +1,6 @@
 [
 	{"name":"SampleRapid", "desc":"Test Scripts by Chirag Amin", "totalFiles":7},      
 	{"name":"SDDemo", "desc":"Sales & Distribution demo from SDK", "totalFiles":18},
-	{"name":"SampleGoodsReceipt", "desc":"Sample Goods Receipt solution", "totalFiles":4}
+	{"name":"SampleGoodsReceipt", "desc":"Sample Goods Receipt solution", "totalFiles":4},
+	{"name":"PMDemo1", "desc":"Plant Maintenance demo from SDK ", "totalFiles":13}
 ]
